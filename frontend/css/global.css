@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "MyCustomFont"; /* Replace with your desired font family name */
+  src: url("./fonts/Pokemon Solid.ttf") format("ttf"); /* Adjust the path and format accordingly */
+  font-weight: normal;
+  font-style: normal;
+}
+/* Gunakan font secara global */
+
+body {
+  font-family: "MyCustomFont", sans-serif;
+}
